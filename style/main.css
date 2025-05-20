@@ -1,0 +1,81 @@
+body {
+  background-color: #1F2525; /* Dark slate background */
+    color: #E8ECEF; /* Soft off-white font color */
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #2D3436;
+    color: #E8ECEF; /* Matches body font color for consistency */
+    padding: 10px 20px; /* Optional: adds spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #2D3436;
+    color: #E8ECEF; /* Matches body font color for consistency */
+    padding: 10px 20px; /* Optional: adds spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    text-align: right;
+}
+
+nav a.active {
+    background-color: #3B82F6; /* Bright blue for active state */
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 0px 6px; /* Reduced padding for all links */
+}
+
+nav a:hover {
+    background-color: #636E72; /* Mid-gray for hover */
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+h1, h2, h3 {
+    color: #A3BFFA; /* Soft lavender-blue for headings, adds a techy pop */
+}
+
+a {
+    color: #60A5FA; /* Bright blue, tech-inspired */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #93C5FD; /* Lighter blue on hover */
+}
+
+p::first-letter{
+  font-size: 200%;
+}
+
+h1::first-letter{
+  font-size: 200%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #4B5EAA;
+}
+
+tr:nth-child(even) {
+    background-color: #2D3436; /* Darker row */
+}
+
+tr:nth-child(odd) {
+    background-color: #232931; /* Lighter row */
+}
+
+th {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+}
