@@ -17,12 +17,13 @@
             <li><a href="roadmap.html">Roadmap</a></li>
         </ul>
     </nav>
-    <body>
+    <body class="form-body">
         <h1>Contact Me</h1>
         <p>Feel free to contact me by filling out the form, and it would be really helpful if you also completed the short questionnaire.</p>
-        <hr>
+        <br>
         <form method="post" action="/submit-feedback">
         <div class="form-group">
+            <p>
             <label for="name">Name:</label>
             <input id="name" name="name" type="text" maxlength="30" placeholder="Your name" required>*
             <br>
@@ -39,11 +40,12 @@
             <br>
             <label for="email">Phone:</label>
             <input name="phone" type="tel" placeholder="999-999-9999" maxlength="12" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}">
+            </p>
         </div>
-        <hr>
+        <br>
         <div class="form-group">
             <p><b>Things you liked:</b>
-                <br>
+            <br>
             <label><input type="checkbox" name="likes" value="sitedesign"> Site design</label>
             <label><input type="checkbox" name="likes" value="links"> Links</label>
             <label><input type="checkbox" name="likes" value="ease"> Ease of use</label>
@@ -51,17 +53,17 @@
             <label><input type="checkbox" name="likes" value="source"> Source code</label>
             </p>
         </div>
-
+        <br>
         <div class="form-group">
             <p><b>How did you get to the site?</b>
-                <br>
+            <br>
             <label>Search Engine<input type="radio" name="source" value="search" required></label>
             <label>Links from another site<input type="radio" name="source" value="friend"></label>
             <label>Other<input type="radio" name="source" value="other"></label>
             </p>
         </div>
-        <hr>
-        <div>
+        <br>
+        <div class="form-buttons">
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </div>
