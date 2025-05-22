@@ -47,18 +47,26 @@ a:hover {
     color: #93C5FD; /* Lighter blue on hover */
 }
 
-p::first-letter{
-  font-size: 200%;
+p {
+    text-indent: 20px;
 }
 
-h1::first-letter{
-  font-size: 200%;
+p::first-letter{
+  font-size: 150%;
+}
+
+h1::first-letter, h2::first-letter{
+  font-size: 150%;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+}
+
+.tablehead {
+    color: #2D3436;
 }
 
 th, td {
@@ -79,3 +87,4 @@ th {
     background-color: #3B82F6;
     color: #FFFFFF;
 }
+
