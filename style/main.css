@@ -88,23 +88,24 @@ th {
     color: #FFFFFF;
 }
 
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #2d2d2d;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
 .form-group {
     border: 2px solid white;
-    border-radius: 3px;
+    border-radius: 8px;
     border-color: #E8ECEF;  
     background-color: #2D3436;
     margin: 0 auto;
-    width: 550px
-    
 }
 
 .form-group, p {
     padding: 5px;
 }
 
-.form-buttons {
-    border-radius: 3px;
-    border-color: #E8ECEF;  
-    margin: 0 auto;
-    width: 550px  
-}
