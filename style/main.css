@@ -1,54 +1,69 @@
 body {
-  background-color: #1F2525; /* Dark slate background */
-    color: #E8ECEF; /* Soft off-white font color */
+    background-color: #1F2525; 
+    color: #E8ECEF; 
     font-family: 'Arial', sans-serif;
 }
 
 nav {
     background-color: #2D3436;
-    color: #E8ECEF; /* Matches body font color for consistency */
-    padding: 10px 20px; /* Optional: adds spacing */
+    color: #E8ECEF; 
+    padding: 10px 20px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
 
+figure.logo {
+    background-color: #2D3436;
+    border: 1pt solid #3B82F6;
+    float: left;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+figure.logo img{
+    width: 150px;
+}
+
 footer {
     background-color: #2D3436;
-    color: #E8ECEF; /* Matches body font color for consistency */
-    padding: 10px 20px; /* Optional: adds spacing */
+    color: #E8ECEF; 
+    padding: 10px 20px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     text-align: right;
 }
 
 nav a.active {
-    background-color: #3B82F6; /* Bright blue for active state */
+    background-color: #3B82F6; 
     color: #FFFFFF;
     border-radius: 4px;
-    padding: 0px 6px; /* Reduced padding for all links */
+    padding: 0px 6px; 
 }
 
 nav a:hover {
-    background-color: #636E72; /* Mid-gray for hover */
+    background-color: #636E72; 
     color: #FFFFFF;
     border-radius: 4px;
 }
 
 h1, h2, h3 {
-    color: #A3BFFA; /* Soft lavender-blue for headings, adds a techy pop */
+    color: #A3BFFA; 
 }
 
 a {
-    color: #60A5FA; /* Bright blue, tech-inspired */
+    color: #60A5FA; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #93C5FD; /* Lighter blue on hover */
+    color: #93C5FD; 
 }
 
 p {
     text-indent: 20px;
+    margin: 16px 0;
 }
 
 p::first-letter{
@@ -57,6 +72,24 @@ p::first-letter{
 
 h1::first-letter, h2::first-letter{
   font-size: 150%;
+}
+
+figure.about {
+    background-color: #2D3436;
+    float: right;
+    padding: 5px;
+    width: 150px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+figure.about img{
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
 }
 
 table {
